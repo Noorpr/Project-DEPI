@@ -1,6 +1,3 @@
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
-
-
 # What is the Power Factor?
 Power Factor (PF) is <span style="color: red">*the ratio of real power (measured in watts, W) to apparent power (measured in volt-amperes, VA) in an AC electrical system*</span>. It tells us how efficiently electrical power is being converted into useful work.
 
