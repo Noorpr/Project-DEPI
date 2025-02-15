@@ -62,3 +62,7 @@ Several factors can influence the **Power Factor (PF)** in an AC electrical Syst
  - **What time range does your dataset cover?** Hourly, daily, or monthly?
 
  - **What forecasting horizon do you need?** (e.g., next hour, next day, next month)
+
+
+A steel stamping operation runs at 100 kW (Working Power) and the Apparent Power meter records 125 kVA. To find the PF, divide 100 kW by 125 kVA to yield a PF of 80%. This means that only 80% of the incoming current does useful work and 20% is wasted through heating up the conductors.
+
