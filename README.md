@@ -6,9 +6,7 @@ Power Factor (PF) is <span style="color: red">*the ratio of real power (measured
 
 ## ***Formula:***
 
-\[
-PF = \frac{\text{Real Power} (W)}{\text{Apparent Power} (VA)}
-\]
+\[ PF = \frac{\text{Real Power} (W)}{\text{Apparent Power} (VA)} \]
 
 
 Since real power (W) is the actual usable power and apparent power (VA) is the total power supplied, a **power factor of 1 (or 100%)** means perfect efficiency, while a **lower power factor** indicates wasted energy.
