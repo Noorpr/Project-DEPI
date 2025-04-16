@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import json
 
 st.title("Power Factor Prediction")
 st.subheader("this project aims to predict the next power factor based on previous factors.")
@@ -44,7 +45,9 @@ if st.session_state.clicked[1]:
 
         if response.status_code == 200:
             result = response.json()
-            st.success(f"Prediction: {result['prediction']}")
-            st.download_button("Download the results", result, 'results.txt', 'text/plain', key='download-text')
+            result_str = json.dumps(result, indent=4)
+            st.success(f"Prediction: {result['prediction']}") 
+            st.download_button("Download the results", result_str, 'results.txt', 'text/plain', key='download-text')
+            
         else:
             st.error("Failed to get prediction from model API")
