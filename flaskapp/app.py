@@ -3,7 +3,7 @@ from dashboard import startDashboard
 import joblib
 import pandas as pd
 from typing import List
-
+from tensorflow.keras.models import load_model
 # Initialize Flask app
 app = Flask(__name__)
 dash_app = startDashboard(app)
@@ -12,9 +12,9 @@ dash_app = startDashboard(app)
 model = None
 
 # Function to load the model
-def load_model():
+def load_the_model():
     global model
-    model = joblib.load("random_forest.pkl")
+    model = load_model("best_model.h5")
     print("Model Loaded")
 
 # Create a simple class for validation
@@ -33,7 +33,7 @@ def get_result():
     global model
     # Load model if not already loaded
     if model is None:
-        load_model()
+        load_the_model()
     
     data = request.get_json()
     if not data or 'features' not in data:
@@ -57,5 +57,5 @@ def after_request(response):
 
 if __name__ == "__main__":
     # Load model at startup
-    load_model()
+    load_the_model()
     app.run(debug=True)
