@@ -95,7 +95,7 @@ def startDashboard(flaskserver):
 
     app.layout = html.Div([
         html.Div([
-            html.Img(src='https://github.com/Noorpr/Project-DEPI/blob/main/Logo.png?raw=true', style={'height': '70px'}),
+           
             html.H1("Energy Consumption Dashboard", style={"textAlign": "center", "color": "#e43721",'margin-left':'0px'})
         ], style={'display': 'flex', 'align-items': 'center', 'position' : 'center','justify-content':'center'}),
 
