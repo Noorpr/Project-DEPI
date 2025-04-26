@@ -6,5 +6,4 @@ dash-table
 pandas
 plotly
 flask
-joblib
 tensorflow==2.15
