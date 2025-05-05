@@ -74,6 +74,6 @@ Power up the project with your contributions! Follow these steps to submit a pul
 ---
 
 ## 🌍 Let's Power the Future Together!
-Join us in illuminating the path to energy efficiency! Explore the code, check out the [IEEE paper](Documentation\paper_PF.pdf) for technical details, and deploy the web app using Render. For questions or collaboration, feel free to open an issue or reach out.
+Join us in illuminating the path to energy efficiency! Explore the code, check out the [IEEE paper](Documentation/paper_PF.pdf) for technical details, and deploy the web app using Render. For questions or collaboration, feel free to open an issue or reach out.
 
 🔋 **Stay Charged, Stay Efficient!**
