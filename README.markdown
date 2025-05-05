@@ -1,3 +1,5 @@
+![image](assets/Power%20Factor%20Forecast_page-0001.jpg)
+
 # 🌞 Power Factor Prediction (PF PredictX) - Energizing Efficiency
 
 Welcome to the **PF PredictX** project repository! This initiative, developed under the Digital Egypt Pioneers Initiative, harnesses the power of machine learning to revolutionize energy efficiency in electrical systems. Our mission is to predict power factor (PF) with precision, optimizing energy usage and reducing operational costs in residential and industrial settings. Powered by advanced algorithms like LSTM and Random Forest, this project lights the way toward a sustainable energy future!
