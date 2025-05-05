@@ -83,7 +83,7 @@ These methods aim to bring PF closer to 1, reducing energy losses and improving 
 
 To ensure accurate PF prediction in projects like PF PredictX, consider the following when preparing your dataset:
 
-- **Do you have Apparent Power (S, kVA) values?** If not, can you derive it using the formula $$ S = \sqrt{P^2 + Q^2} $$, where ( P ) is active power and ( Q ) is reactive power? Alternatively, do you need an approximation based on voltage and current?
+- **Do you have Apparent Power (S, kVA) values?** If not, can you derive it using the formula S = ($\sqrt{p^2 + q^2}$), where ( P ) is active power and ( Q ) is reactive power? Alternatively, do you need an approximation based on voltage and current?
 - **What time range does your dataset cover?** Is it sampled hourly, daily, minutely, or over another interval? High-resolution data (e.g., per minute) may require resampling for computational efficiency.
 - **Are there missing or noisy values?** PF calculations are sensitive to inaccuracies in voltage, current, or power measurements, necessitating robust preprocessing.
 
